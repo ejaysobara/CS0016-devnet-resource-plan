@@ -19,7 +19,7 @@ Selecting the correct DevNet resource prevents wasted setup time and avoids usin
 
 ## AI Evaluation
 
-The AI recommendations were accepted after independent verification. The clearest check was UC1: AI recommended an Always-On sandbox, and Cisco confirms that it is immediately available, shared, and intended for non-admin API activity. A reservation sandbox would be less suitable because it requires scheduling and setup and is intended for private administrative work.
+The AI recommendations were accepted after manual verification. The clearest check was UC1: AI recommended an Always-On sandbox, and Cisco confirms that it is immediately available, shared, and intended for non-admin API activity. A reservation sandbox would be less suitable because it requires scheduling and setup and is intended for private administrative work.
 
 ## Validation Evidence
 
