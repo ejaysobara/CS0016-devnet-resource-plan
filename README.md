@@ -42,7 +42,20 @@ The AI recommendations were accepted after manual verification. The clearest che
 
 - Initial commit message: `Initialize DevNet resource planning workspace`
 - Validation commit message: `Complete and validate DevNet resource plan`
-- Output of `git log --oneline`: recorded after the validation commit.
+- Output of `git log --oneline`:
+> 5e1f48b (HEAD -> main, origin/main, origin/HEAD) Fix UC4 link in README
+> cc4b953 Refactor validation evidence section in README
+> d7f0725 Clarified what the AI response/recommendations were
+> 781ce20 Clarified what the AI response/recommendations were
+> 82c470e Updated use case example in ai_prompt_record.md
+> 047e1f0 Corrected student name and section in JSON
+> c5d0b2f Clarify AI recommendation verification process
+> 29218df Corrected project name and validation evidence
+> 46e57f2 Use screenshot for validator evidence
+> 5842e7a Replace prompt placeholder with example scenario
+> 9b478c6 Record AI prompts and scenario recommendations
+> cf851f2 Complete and validate DevNet resource plan
+> 0bb1d92 Initialize DevNet resource planning workspace
 
 ## AI-Use Disclosure
 
