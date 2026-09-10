@@ -36,3 +36,5 @@ The AI recommendations were accepted after independent verification. The cleares
 ## AI-Use Disclosure
 
 AI tool used: ChatGPT. It helped identify a suitable resource type for each scenario and formulate claims to verify. I independently checked each claim against Cisco’s official resource descriptions, access model, and intended use, then revised the plan into the exact validator labels and added detailed rationales. No credentials or sensitive information were used.
+
+The prompt and transcript excerpts for each scenario are recorded in `ai_prompt_record.md`.
