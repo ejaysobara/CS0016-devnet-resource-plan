@@ -10,11 +10,11 @@ The following prompt was used for each scenario. The placeholder is shown here w
 
 ## UC1
 
-AI recommendation: `always-on-sandbox`. The decisive requirement was immediate shared read-only API access without provisioning. And to verify that Always-On access is immediate, shared, requires no reservation, and restricts administrative access. https://developer.cisco.com/site/sandbox/
+AI recommendation: `always-on-sandbox`. The decisive requirement was immediate shared read-only API access without provisioning. And to verify that Always-On access is immediate, shared, requires no reservation, and restricts administrative access. https://developer.cisco.com/docs/sandbox/
 
 ## UC2
 
-AI recommendation: `reservation-sandbox`. The decisive requirement was private configuration testing with administrative access. And to verify that Reservation sandboxes are private, scheduled, VPN-accessed, and provide administrative access, with setup time. https://developer.cisco.com/site/sandbox/
+AI recommendation: `reservation-sandbox`. The decisive requirement was private configuration testing with administrative access. And to verify that Reservation sandboxes are private, scheduled, VPN-accessed, and provide administrative access, with setup time. https://developer.cisco.com/docs/sandbox/
 
 ## UC3
 
@@ -22,4 +22,4 @@ AI recommendation: `learning-lab`. The decisive requirement was structured, step
 
 ## UC4
 
-AI recommendation: `code-exchange`. The decisive requirement was examining reusable community and Cisco-maintained automation code. And to verify that Code Exchange provides shared sample solutions and implementations. https://developer.cisco.com/codeexchange/
+AI recommendation: `code-exchange`. The decisive requirement was examining reusable community and Cisco-maintained automation code. And to verify that Code Exchange provides shared sample solutions and implementations. https://developer.cisco.com/codeexchange/about
