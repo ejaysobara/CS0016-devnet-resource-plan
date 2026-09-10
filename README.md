@@ -35,6 +35,8 @@ The AI recommendations were accepted after manual verification. The clearest che
 > PASS: no credential-like fields detected  
 >  
 > VALIDATION COMPLETE: 9/9 checks passed.  
+<img width="1478" height="452" alt="image" src="https://github.com/user-attachments/assets/b73a5daa-d001-4da8-baa2-e78937900066" />  
+  
 - Command used: `python validate_plan.py`
 - Official Cisco pages reviewed: https://developer.cisco.com/docs/sandbox/, https://developer.cisco.com/learning/, and https://developer.cisco.com/codeexchange/about/
 
