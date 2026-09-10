@@ -43,7 +43,7 @@ The AI recommendations were accepted after manual verification. The clearest che
 - Initial commit message: `Initialize DevNet resource planning workspace`
 - Validation commit message: `Complete and validate DevNet resource plan`
 - Output of `git log --oneline`:
-> 6ba62c5 (HEAD -> main, origin/main, origin/HEAD) Fixed the formatting of the previous change made earlier
+> 6ba62c5 (HEAD -> main, origin/main, origin/HEAD) Fixed the formatting of the previous change made earlier  
 > 7b3d4dc Fix formatting of log --oneline output  
 > ccc828c Provided the actual git log --oneline output  
 > 5e1f48b Fix UC4 link in README  
