@@ -24,17 +24,17 @@ The AI recommendations were accepted after manual verification. The clearest che
 ## Validation Evidence
 
 - Validator result: 
-`PASS: JSON file loaded
-PASS: student and AI disclosure completed
-PASS: all four scenario IDs present
-PASS: resource classifications match scenario requirements
-PASS: official Cisco evidence URLs supplied
-PASS: AI verification statuses are valid
-PASS: rationales are sufficiently detailed
-PASS: AI recommendations are summarized in the student's own words
-PASS: no credential-like fields detected
-
-VALIDATION COMPLETE: 9/9 checks passed.`
+> PASS: JSON file loaded
+> PASS: student and AI disclosure completed
+> PASS: all four scenario IDs present
+> PASS: resource classifications match scenario requirements
+> PASS: official Cisco evidence URLs supplied
+> PASS: AI verification statuses are valid
+> PASS: rationales are sufficiently detailed
+> PASS: AI recommendations are summarized in the student's own words
+> PASS: no credential-like fields detected
+>
+> VALIDATION COMPLETE: 9/9 checks passed.
 - Command used: `python validate_plan.py`
 - Official Cisco pages reviewed: https://developer.cisco.com/docs/sandbox/, https://developer.cisco.com/learning/, and https://developer.cisco.com/codeexchange/
 
