@@ -2,34 +2,37 @@
 
 ## Student and Project
 
-- Name:
-- Section:
+- Name: ebviray
+- Section: IT0123
 - Repository name: `it0123-devnet-resource-plan`
 
 ## Purpose
 
-Explain in 2-3 sentences why selecting the correct DevNet resource matters before beginning a network-automation task.
+Selecting the correct DevNet resource prevents wasted setup time and avoids using a shared environment for changes it cannot safely support. Matching access, privacy, administrative permissions, and learning structure to the task makes network-automation practice safer and more effective.
 
 ## Validated Resource Decisions
 
-Summarize your four selections from `student_plan.json`. For each use case, state the selected resource, the most important requirement, and the official Cisco evidence used.
+- UC1 — `always-on-sandbox`: Immediate shared, read-only API access. Cisco documents Always-On sandboxes as requiring no reservation, being shared, and restricting administrative access: https://developer.cisco.com/docs/sandbox/
+- UC2 — `reservation-sandbox`: Private administrative configuration testing with scheduled VPN access. Cisco documents Reservation sandboxes as private, VPN-accessed, and fully administrative: https://developer.cisco.com/docs/sandbox/
+- UC3 — `learning-lab`: Structured, step-by-step beginner practice. Cisco describes Learning Labs as interactive tutorials with built-in development environments: https://developer.cisco.com/learning/
+- UC4 — `code-exchange`: Reusable Cisco and community automation examples. Cisco describes Code Exchange as a community for shared sample solutions and implementations: https://developer.cisco.com/codeexchange/
 
 ## AI Evaluation
 
-Identify at least one AI recommendation that you accepted, rejected, or modified. Explain the evidence behind your decision.
+The AI recommendations were accepted after independent verification. The clearest check was UC1: AI recommended an Always-On sandbox, and Cisco confirms that it is immediately available, shared, and intended for non-admin API activity. A reservation sandbox would be less suitable because it requires scheduling and setup and is intended for private administrative work.
 
 ## Validation Evidence
 
-- Validator result:
-- Command used:
-- Official Cisco pages reviewed:
+- Validator result: `VALIDATION COMPLETE: 9/9 checks passed.`
+- Command used: `python validate_plan.py`
+- Official Cisco pages reviewed: https://developer.cisco.com/docs/sandbox/, https://developer.cisco.com/learning/, and https://developer.cisco.com/codeexchange/
 
 ## Git Evidence
 
-- Initial commit message:
-- Validation commit message:
-- Output of `git log --oneline`:
+- Initial commit message: `Initialize DevNet resource planning workspace`
+- Validation commit message: `Complete and validate DevNet resource plan`
+- Output of `git log --oneline`: recorded after the validation commit.
 
 ## AI-Use Disclosure
 
-State the AI tool used, the type of assistance received, what was independently checked, and what you revised.
+AI tool used: ChatGPT. It helped identify a suitable resource type for each scenario and formulate claims to verify. I independently checked each claim against Cisco’s official resource descriptions, access model, and intended use, then revised the plan into the exact validator labels and added detailed rationales. No credentials or sensitive information were used.
