@@ -15,7 +15,7 @@ Selecting the correct DevNet resource prevents wasted setup time and avoids usin
 - UC1 — `always-on-sandbox`: Immediate shared, read-only API access. Cisco documents Always-On sandboxes as requiring no reservation, being shared, and restricting administrative access: https://developer.cisco.com/docs/sandbox/
 - UC2 — `reservation-sandbox`: Private administrative configuration testing with scheduled VPN access. Cisco documents Reservation sandboxes as private, VPN-accessed, and fully administrative: https://developer.cisco.com/docs/sandbox/
 - UC3 — `learning-lab`: Structured, step-by-step beginner practice. Cisco describes Learning Labs as interactive tutorials with built-in development environments: https://developer.cisco.com/learning/
-- UC4 — `code-exchange`: Reusable Cisco and community automation examples. Cisco describes Code Exchange as a community for shared sample solutions and implementations: https://developer.cisco.com/codeexchange/
+- UC4 — `code-exchange`: Reusable Cisco and community automation examples. Cisco describes Code Exchange as a community for shared sample solutions and implementations: https://developer.cisco.com/codeexchange/about/
 
 ## AI Evaluation
 
@@ -36,7 +36,7 @@ The AI recommendations were accepted after manual verification. The clearest che
 >
 > VALIDATION COMPLETE: 9/9 checks passed.
 - Command used: `python validate_plan.py`
-- Official Cisco pages reviewed: https://developer.cisco.com/docs/sandbox/, https://developer.cisco.com/learning/, and https://developer.cisco.com/codeexchange/
+- Official Cisco pages reviewed: https://developer.cisco.com/docs/sandbox/, https://developer.cisco.com/learning/, and https://developer.cisco.com/codeexchange/about/
 
 ## Git Evidence
 
