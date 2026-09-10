@@ -3,7 +3,7 @@
 The following prompt was used for each scenario. The placeholder is shown here with a made-up example classroom scenario:
 
 > I am selecting a Cisco DevNet resource for a fictional classroom use case.
-> Use case: A classroom team needs to practice retrieving device interface status through a Cisco API immediately, using a shared environment where configuration changes are not needed.
+> Use case: A group of students wants to look up basic information from a Cisco device right away. They only need to read the information, and they do not need to change anything.
 > Choose exactly one: learning-lab, always-on-sandbox, reservation-sandbox, or code-exchange.
 > Explain which requirement drove your choice. State any access, isolation, setup, or privilege claim that I should verify in official Cisco documentation.
 > Do not invent a sandbox product name, URL, account, or credential.
