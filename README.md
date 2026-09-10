@@ -1,10 +1,10 @@
-# IT0123 DevNet Resource Validation Plan
+# CS0016 DevNet Resource Validation Plan
 
 ## Student and Project
 
-- Name: ebviray
-- Section: IT0123
-- Repository name: `it0123-devnet-resource-plan`
+- Name:  Earl John Viray
+- Section: TS31
+- Repository name: `CS0016-devnet-resource-plan`
 
 ## Purpose
 
@@ -23,7 +23,18 @@ The AI recommendations were accepted after independent verification. The cleares
 
 ## Validation Evidence
 
-- Validator result: `VALIDATION COMPLETE: 9/9 checks passed.`
+- Validator result: 
+`PASS: JSON file loaded
+PASS: student and AI disclosure completed
+PASS: all four scenario IDs present
+PASS: resource classifications match scenario requirements
+PASS: official Cisco evidence URLs supplied
+PASS: AI verification statuses are valid
+PASS: rationales are sufficiently detailed
+PASS: AI recommendations are summarized in the student's own words
+PASS: no credential-like fields detected
+
+VALIDATION COMPLETE: 9/9 checks passed.`
 - Command used: `python validate_plan.py`
 - Official Cisco pages reviewed: https://developer.cisco.com/docs/sandbox/, https://developer.cisco.com/learning/, and https://developer.cisco.com/codeexchange/
 
