@@ -1,9 +1,9 @@
 # AI Prompt Record
 
-The following prompt was used for each scenario, replacing `[paste one scenario]` with the scenario text:
+The following prompt was used for each scenario. The placeholder is shown here with a made-up example classroom scenario:
 
 > I am selecting a Cisco DevNet resource for a fictional classroom use case.
-> Use case: [paste one scenario]
+> Use case: A classroom team needs to practice retrieving device interface status through a Cisco API immediately, using a shared environment where configuration changes are not needed.
 > Choose exactly one: learning-lab, always-on-sandbox, reservation-sandbox, or code-exchange.
 > Explain which requirement drove your choice. State any access, isolation, setup, or privilege claim that I should verify in official Cisco documentation.
 > Do not invent a sandbox product name, URL, account, or credential.
@@ -23,4 +23,3 @@ AI recommendation: `learning-lab`. The decisive requirement was structured, step
 ## UC4
 
 AI recommendation: `code-exchange`. The decisive requirement was examining reusable community and Cisco-maintained automation code. Verify that Code Exchange provides shared sample solutions and implementations.
-
