@@ -1,0 +1,39 @@
+{
+  "student_name": "",
+  "section": "",
+  "ai_tool": "",
+  "entries": [
+    {
+      "use_case_id": "UC1",
+      "selected_resource_type": "",
+      "official_evidence_url": "",
+      "ai_recommendation_summary": "",
+      "verification_status": "",
+      "rationale": ""
+    },
+    {
+      "use_case_id": "UC2",
+      "selected_resource_type": "",
+      "official_evidence_url": "",
+      "ai_recommendation_summary": "",
+      "verification_status": "",
+      "rationale": ""
+    },
+    {
+      "use_case_id": "UC3",
+      "selected_resource_type": "",
+      "official_evidence_url": "",
+      "ai_recommendation_summary": "",
+      "verification_status": "",
+      "rationale": ""
+    },
+    {
+      "use_case_id": "UC4",
+      "selected_resource_type": "",
+      "official_evidence_url": "",
+      "ai_recommendation_summary": "",
+      "verification_status": "",
+      "rationale": ""
+    }
+  ]
+}

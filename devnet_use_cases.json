@@ -1,0 +1,26 @@
+{
+  "course": "IT0123 - IT Specialization 7: Development Network",
+  "module": "Module 2 - The DevNet Developer Environment",
+  "use_cases": [
+    {
+      "id": "UC1",
+      "title": "Quick read-only API exploration",
+      "scenario": "A student team needs immediate access to a shared Cisco environment to practice safe read-only API requests. Administrative changes are not required, and the team cannot wait for provisioning."
+    },
+    {
+      "id": "UC2",
+      "title": "Private configuration testing",
+      "scenario": "A development team must test configuration changes with administrative access in a private environment. The team can schedule access, use a VPN, and accept setup time."
+    },
+    {
+      "id": "UC3",
+      "title": "Guided API concept practice",
+      "scenario": "A beginner needs structured, step-by-step learning content before attempting an independent API activity. The immediate goal is guided practice rather than access to administrative devices."
+    },
+    {
+      "id": "UC4",
+      "title": "Reusable automation example",
+      "scenario": "A developer wants to examine community and Cisco-maintained code repositories for an existing network-automation use case before designing a new solution."
+    }
+  ]
+}
